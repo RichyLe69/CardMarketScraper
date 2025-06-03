@@ -1,0 +1,37 @@
+# Example configuration for the multi-URL scraper (New Clean Format)
+name: 2009_Twilight
+wait_time: 3
+
+cards:
+  Judgment-Dragon:
+    set: Turbo-Pack
+    condition: Near Mint
+
+  Caius-the-Shadow-Monarch:
+    set: Turbo-Pack-Booster-Three
+    condition: Near Mint
+
+  Lumina-Lightsworn-Summoner:
+    set: Champion-Pack-Game-Eight
+    condition: Near Mint
+
+  Charge-of-the-Light-Brigade:
+    set: The-Duelist-Genesis
+    condition: Near Mint
+    edition: 1st
+
+# URL Building Logic:
+# Base URL: https://www.cardmarket.com/en/YuGiOh/Products/Singles/
+# Final URL: {base_url}{set}/{card_name}?{parameters}
+#
+# Examples:
+# Judgment-Dragon → https://www.cardmarket.com/en/YuGiOh/Products/Singles/Turbo-Pack/Judgment-Dragon?minCondition=2
+# Charge-of-the-Light-Brigade → https://www.cardmarket.com/en/YuGiOh/Products/Singles/The-Duelist-Genesis/Charge-of-the-Light-Brigade?minCondition=2&isFirstEd=Y
+#
+# Parameters:
+# condition: "Near Mint" → ?minCondition=2
+# edition: "1st" → ?isFirstEd=Y (or &isFirstEd=Y)
+#
+# Edition Detection in Excel:
+# - Blank: Non-1st edition (default)
+# - "1st": First edition detected in HTML

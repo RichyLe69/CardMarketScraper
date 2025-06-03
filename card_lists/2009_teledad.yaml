@@ -1,0 +1,34 @@
+name: 2009_Teledad
+wait_time: 3
+
+cards:
+  Dark-Armed-Dragon:
+    set: Turbo-Pack-Booster-Six
+    condition: Near Mint
+
+  Caius-the-Shadow-Monarch:
+    set: Turbo-Pack-Booster-Three
+    condition: Near Mint
+
+  Allure-of-Darkness-V-2:
+    set: Phantom-Darkness
+    condition: Near Mint
+    edition: 1st
+
+  Plaguespreader-Zombie-V-2:
+    set: Crossroads-of-Chaos
+    condition: Near Mint
+    edition: 1st
+
+  Sangan-V1-Super-Rare:
+    set: Retro-Pack
+    condition: Near Mint
+
+  Trap-Dustshoot:
+    set: Champion-Pack-Game-Five
+    condition: Near Mint
+
+  Dark-Grepher-V-1:
+    set: Phantom-Darkness
+    condition: Near Mint
+    edition: 1st
