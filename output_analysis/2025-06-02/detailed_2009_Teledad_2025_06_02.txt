@@ -1,0 +1,233 @@
+=== Card Price Analysis Results ===
+Date Folder: 2025-06-02
+Analysis Date: 2025-06-02 22:25:47
+Total Excel files analyzed: 1
+
+============================================================
+FILE: 2009_Teledad_2025_06_02.xlsx
+============================================================
+Total cards in file: 7
+Cards with pricing data: 7
+
+LIST SUMMARY BY LANGUAGE:
+----------------------------------------
+English:
+  Cards available: 7
+  Total quantity: 56
+  Total listings: 47
+  Price range: €30.00 - €2000.00
+  Average price: €461.69
+  Median price: €319.50
+
+German:
+  Cards available: 7
+  Total quantity: 92
+  Total listings: 74
+  Price range: €15.00 - €1199.99
+  Average price: €302.14
+  Median price: €199.99
+
+Spanish:
+  Cards available: 3
+  Total quantity: 5
+  Total listings: 5
+  Price range: €94.90 - €319.95
+  Average price: €185.79
+  Median price: €129.99
+
+French:
+  Cards available: 7
+  Total quantity: 32
+  Total listings: 21
+  Price range: €9.49 - €800.00
+  Average price: €277.53
+  Median price: €149.50
+
+Italian:
+  Cards available: 6
+  Total quantity: 32
+  Total listings: 25
+  Price range: €11.90 - €1700.00
+  Average price: €409.65
+  Median price: €272.50
+
+FOREIGN LANGUAGES COMBINED:
+  Cards available: 7
+  Total quantity: 161
+  Total listings: 125
+  Price range: €9.49 - €1700.00
+  Average price: €342.17
+  Median price: €199.99
+
+INDIVIDUAL CARD DETAILS:
+----------------------------------------
+
+Card: Dark Armed Dragon
+  Total listings: 26
+  English:
+    Quantity: 13
+    Listings: 10
+    Price: €339.00 - €2000.00 (avg: €643.88, median: €446.50)
+  German:
+    Quantity: 16
+    Listings: 12
+    Price: €265.00 - €699.99 (avg: €352.16, median: €302.50)
+  Spanish:
+    Quantity: 1
+    Listings: 1
+    Price: €319.95 - €319.95 (avg: €319.95, median: €319.95)
+  French:
+    Quantity: 1
+    Listings: 1
+    Price: €599.00 - €599.00 (avg: €599.00, median: €599.00)
+  Italian:
+    Quantity: 3
+    Listings: 2
+    Price: €620.00 - €649.99 (avg: €635.00, median: €635.00)
+  Foreign Combined:
+    Quantity: 21
+    Listings: 16
+    Price: €265.00 - €699.99 (avg: €400.93, median: €319.98)
+
+Card: Caius the Shadow Monarch
+  Total listings: 30
+  English:
+    Quantity: 10
+    Listings: 10
+    Price: €299.99 - €1099.99 (avg: €653.98, median: €649.99)
+  German:
+    Quantity: 15
+    Listings: 11
+    Price: €430.00 - €1199.99 (avg: €584.08, median: €549.99)
+  French:
+    Quantity: 9
+    Listings: 5
+    Price: €425.00 - €800.00 (avg: €544.99, median: €499.95)
+  Italian:
+    Quantity: 6
+    Listings: 4
+    Price: €535.00 - €1700.00 (avg: €871.25, median: €625.00)
+  Foreign Combined:
+    Quantity: 30
+    Listings: 20
+    Price: €425.00 - €1700.00 (avg: €631.74, median: €549.99)
+
+Card: Allure of Darkness V 2
+  Total listings: 21
+  English:
+    Quantity: 6
+    Listings: 5
+    Price: €144.99 - €450.00 (avg: €273.98, median: €249.99)
+  German:
+    Quantity: 17
+    Listings: 12
+    Price: €90.00 - €199.99 (avg: €123.51, median: €124.00)
+  Spanish:
+    Quantity: 1
+    Listings: 1
+    Price: €129.99 - €129.99 (avg: €129.99, median: €129.99)
+  French:
+    Quantity: 1
+    Listings: 1
+    Price: €149.50 - €149.50 (avg: €149.50, median: €149.50)
+  Italian:
+    Quantity: 4
+    Listings: 2
+    Price: €119.00 - €164.99 (avg: €142.00, median: €142.00)
+  Foreign Combined:
+    Quantity: 23
+    Listings: 16
+    Price: €90.00 - €199.99 (avg: €127.85, median: €128.95)
+
+Card: Plaguespreader Zombie V 2
+  Total listings: 12
+  English:
+    Quantity: 5
+    Listings: 5
+    Price: €249.97 - €395.95 (avg: €300.18, median: €295.00)
+  German:
+    Quantity: 6
+    Listings: 6
+    Price: €80.00 - €199.99 (avg: €139.72, median: €141.66)
+  French:
+    Quantity: 1
+    Listings: 1
+    Price: €128.00 - €128.00 (avg: €128.00, median: €128.00)
+  Foreign Combined:
+    Quantity: 7
+    Listings: 7
+    Price: €80.00 - €199.99 (avg: €138.04, median: €133.33)
+
+Card: Sangan V1 Super Rare
+  Total listings: 48
+  English:
+    Quantity: 12
+    Listings: 11
+    Price: €30.00 - €99.99 (avg: €60.80, median: €59.99)
+  German:
+    Quantity: 20
+    Listings: 18
+    Price: €15.00 - €99.99 (avg: €32.82, median: €24.99)
+  French:
+    Quantity: 9
+    Listings: 6
+    Price: €9.49 - €37.99 (avg: €19.81, median: €15.99)
+  Italian:
+    Quantity: 15
+    Listings: 13
+    Price: €11.90 - €49.99 (avg: €29.52, median: €30.00)
+  Foreign Combined:
+    Quantity: 44
+    Listings: 37
+    Price: €9.49 - €99.99 (avg: €29.55, median: €25.00)
+
+Card: Trap Dustshoot
+  Total listings: 15
+  English:
+    Quantity: 3
+    Listings: 3
+    Price: €353.64 - €599.99 (avg: €451.21, median: €400.00)
+  German:
+    Quantity: 6
+    Listings: 5
+    Price: €280.00 - €499.99 (avg: €411.79, median: €399.00)
+  French:
+    Quantity: 9
+    Listings: 5
+    Price: €255.00 - €400.00 (avg: €311.00, median: €275.00)
+  Italian:
+    Quantity: 2
+    Listings: 2
+    Price: €349.00 - €400.00 (avg: €374.50, median: €374.50)
+  Foreign Combined:
+    Quantity: 17
+    Listings: 12
+    Price: €255.00 - €499.99 (avg: €363.58, median: €364.99)
+
+Card: Dark Grepher V 1
+  Total listings: 20
+  English:
+    Quantity: 7
+    Listings: 3
+    Price: €177.99 - €222.22 (avg: €200.07, median: €199.99)
+  German:
+    Quantity: 12
+    Listings: 10
+    Price: €69.99 - €99.99 (avg: €83.30, median: €80.00)
+  Spanish:
+    Quantity: 3
+    Listings: 3
+    Price: €94.90 - €119.99 (avg: €104.96, median: €100.00)
+  French:
+    Quantity: 2
+    Listings: 2
+    Price: €95.00 - €110.00 (avg: €102.50, median: €102.50)
+  Italian:
+    Quantity: 2
+    Listings: 2
+    Price: €120.00 - €195.99 (avg: €158.00, median: €158.00)
+  Foreign Combined:
+    Quantity: 19
+    Listings: 17
+    Price: €69.99 - €195.99 (avg: €98.17, median: €94.90)
+

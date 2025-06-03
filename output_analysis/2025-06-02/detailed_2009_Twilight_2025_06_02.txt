@@ -1,0 +1,156 @@
+=== Card Price Analysis Results ===
+Date Folder: 2025-06-02
+Analysis Date: 2025-06-02 22:25:47
+Total Excel files analyzed: 1
+
+============================================================
+FILE: 2009_Twilight_2025_06_02.xlsx
+============================================================
+Total cards in file: 4
+Cards with pricing data: 4
+
+LIST SUMMARY BY LANGUAGE:
+----------------------------------------
+English:
+  Cards available: 4
+  Total quantity: 46
+  Total listings: 39
+  Price range: €134.90 - €2000.00
+  Average price: €588.73
+  Median price: €302.50
+
+German:
+  Cards available: 4
+  Total quantity: 57
+  Total listings: 41
+  Price range: €119.99 - €1199.99
+  Average price: €453.10
+  Median price: €352.44
+
+Spanish:
+  Cards available: 1
+  Total quantity: 3
+  Total listings: 1
+  Price range: €140.00 - €140.00
+  Average price: €140.00
+  Median price: €140.00
+
+French:
+  Cards available: 3
+  Total quantity: 16
+  Total listings: 11
+  Price range: €295.00 - €800.00
+  Average price: €426.16
+  Median price: €362.00
+
+Italian:
+  Cards available: 4
+  Total quantity: 30
+  Total listings: 15
+  Price range: €100.00 - €1700.00
+  Average price: €521.24
+  Median price: €494.99
+
+FOREIGN LANGUAGES COMBINED:
+  Cards available: 4
+  Total quantity: 106
+  Total listings: 68
+  Price range: €100.00 - €1700.00
+  Average price: €512.47
+  Median price: €349.94
+
+INDIVIDUAL CARD DETAILS:
+----------------------------------------
+
+Card: Judgment Dragon
+  Total listings: 46
+  English:
+    Quantity: 21
+    Listings: 19
+    Price: €260.00 - €2000.00 (avg: €530.34, median: €399.99)
+  German:
+    Quantity: 25
+    Listings: 16
+    Price: €200.00 - €550.00 (avg: €296.05, median: €227.50)
+  French:
+    Quantity: 4
+    Listings: 4
+    Price: €295.00 - €439.95 (avg: €358.49, median: €349.50)
+  Italian:
+    Quantity: 20
+    Listings: 7
+    Price: €234.99 - €489.99 (avg: €294.26, median: €250.00)
+  Foreign Combined:
+    Quantity: 49
+    Listings: 27
+    Price: €200.00 - €550.00 (avg: €304.83, median: €250.00)
+
+Card: Caius the Shadow Monarch
+  Total listings: 30
+  English:
+    Quantity: 10
+    Listings: 10
+    Price: €299.99 - €1099.99 (avg: €653.98, median: €649.99)
+  German:
+    Quantity: 15
+    Listings: 11
+    Price: €430.00 - €1199.99 (avg: €584.08, median: €549.99)
+  French:
+    Quantity: 9
+    Listings: 5
+    Price: €425.00 - €800.00 (avg: €544.99, median: €499.95)
+  Italian:
+    Quantity: 6
+    Listings: 4
+    Price: €535.00 - €1700.00 (avg: €871.25, median: €625.00)
+  Foreign Combined:
+    Quantity: 30
+    Listings: 20
+    Price: €425.00 - €1700.00 (avg: €631.74, median: €549.99)
+
+Card: Lumina Lightsworn Summoner
+  Total listings: 13
+  English:
+    Quantity: 6
+    Listings: 3
+    Price: €305.00 - €399.99 (avg: €354.66, median: €359.00)
+  German:
+    Quantity: 7
+    Listings: 7
+    Price: €274.89 - €600.00 (avg: €345.70, median: €305.00)
+  French:
+    Quantity: 3
+    Listings: 2
+    Price: €298.00 - €299.00 (avg: €298.50, median: €298.50)
+  Italian:
+    Quantity: 1
+    Listings: 1
+    Price: €499.99 - €499.99 (avg: €499.99, median: €499.99)
+  Foreign Combined:
+    Quantity: 11
+    Listings: 10
+    Price: €274.89 - €600.00 (avg: €351.69, median: €302.50)
+
+Card: Charge of the Light Brigade
+  Total listings: 18
+  English:
+    Quantity: 9
+    Listings: 7
+    Price: €134.90 - €209.99 (avg: €177.75, median: €170.00)
+  German:
+    Quantity: 10
+    Listings: 7
+    Price: €119.99 - €249.90 (avg: €160.54, median: €149.99)
+  Spanish:
+    Quantity: 3
+    Listings: 1
+    Price: €140.00 - €140.00 (avg: €140.00, median: €140.00)
+  Italian:
+    Quantity: 3
+    Listings: 3
+    Price: €100.00 - €109.99 (avg: €103.33, median: €100.00)
+  Foreign Combined:
+    Quantity: 16
+    Listings: 11
+    Price: €100.00 - €249.90 (avg: €143.07, median: €140.00)
+
