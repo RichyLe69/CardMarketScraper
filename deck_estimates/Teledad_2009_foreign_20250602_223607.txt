@@ -1,0 +1,19 @@
+DECK PRICE ESTIMATION REPORT
+==================================================
+Generated: 2025-06-02 22:36:07
+Language preference: Foreign
+Optimized price: €2079.49
+
+PURCHASE STRATEGY:
+------------------------------
+Dark Armed Dragon x2 - €530.00 (foreign_combined)
+Caius the Shadow Monarch x1 - €425.00 (foreign_combined)
+Plaguespreader Zombie x1 - €80.00 (foreign_combined)
+  → Matched: Plaguespreader Zombie V 2
+Sangan x1 - €9.49 (foreign_combined)
+  → Matched: Sangan V1 Super Rare
+Allure of Darkness x3 - €270.00 (foreign_combined)
+  → Matched: Allure of Darkness V 2
+Trap Dustshoot x3 - €765.00 (foreign_combined)
+
+TOTAL: €2079.49
