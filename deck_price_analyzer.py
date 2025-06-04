@@ -13,14 +13,94 @@ from card_price_analyzer import CardPriceAnalyzer
 
 
 class DeckPriceEstimator:
-    def __init__(self, base_output_path: str = "./output"):
+    def __init__(self, base_output_path: str = "./output", decks_folder: str = "./decks"):
         """
         Initialize the Deck Price Estimator
 
         Args:
             base_output_path: Path to the output directory containing Excel analysis data
+            decks_folder: Path to folder containing deck YAML files
         """
         self.analyzer = CardPriceAnalyzer(base_output_path)
+        self.decks_folder = Path(decks_folder)
+        self.decks_folder.mkdir(exist_ok=True)
+
+    def list_available_decks(self) -> List[str]:
+        """
+        List all available deck YAML files in the decks folder
+
+        Returns:
+            List of deck file names (without .yaml extension)
+        """
+        yaml_files = list(self.decks_folder.glob("*.yaml")) + list(self.decks_folder.glob("*.yml"))
+        return [f.stem for f in yaml_files]
+
+    def select_deck_interactive(self) -> str:
+        """
+        Interactive deck selection menu
+
+        Returns:
+            Path to selected deck YAML file
+        """
+        available_decks = self.list_available_decks()
+
+        if not available_decks:
+            print("❌ No deck YAML files found in the decks folder.")
+            print(f"📁 Decks folder: {self.decks_folder.absolute()}")
+
+            # Offer to create example deck
+            create_example = input("Would you like to create an example deck? (y/n): ").strip().lower()
+            if create_example in ['y', 'yes']:
+                example_path = self.create_example_deck_yaml()
+                return example_path
+            else:
+                return ""
+
+        print(f"\n📋 Available decks in {self.decks_folder}:")
+        print("-" * 40)
+
+        for i, deck_name in enumerate(available_decks, 1):
+            # Try to get deck info from YAML
+            deck_path = self.decks_folder / f"{deck_name}.yaml"
+            if not deck_path.exists():
+                deck_path = self.decks_folder / f"{deck_name}.yml"
+
+            try:
+                with open(deck_path, 'r', encoding='utf-8') as f:
+                    deck_data = yaml.safe_load(f)
+                    deck_display_name = deck_data.get('deck_name', deck_name)
+                    deck_format = deck_data.get('format', 'Unknown format')
+                    total_cards = sum(sum(category.values()) for category in deck_data.get('cards', {}).values())
+
+                    print(f"{i:2d}. {deck_display_name}")
+                    print(f"     Format: {deck_format} | Cards: {total_cards}")
+            except:
+                print(f"{i:2d}. {deck_name}")
+                print(f"     (Error reading deck info)")
+
+        print(f"{len(available_decks) + 1:2d}. Create new example deck")
+        print(" 0. Exit")
+
+        while True:
+            try:
+                choice = input(f"\nSelect deck (1-{len(available_decks) + 1}, 0 to exit): ").strip()
+
+                if choice == '0':
+                    return ""
+                elif choice == str(len(available_decks) + 1):
+                    return self.create_example_deck_yaml()
+                else:
+                    choice_num = int(choice)
+                    if 1 <= choice_num <= len(available_decks):
+                        selected_deck = available_decks[choice_num - 1]
+                        deck_path = self.decks_folder / f"{selected_deck}.yaml"
+                        if not deck_path.exists():
+                            deck_path = self.decks_folder / f"{selected_deck}.yml"
+                        return str(deck_path)
+                    else:
+                        print(f"❌ Please enter a number between 0 and {len(available_decks) + 1}")
+            except ValueError:
+                print("❌ Please enter a valid number")
 
     def load_deck_from_yaml(self, yaml_path: str) -> Dict[str, Dict[str, int]]:
         """
@@ -44,6 +124,121 @@ class DeckPriceEstimator:
         except yaml.YAMLError as e:
             print(f"❌ Error parsing YAML: {e}")
             return {}
+
+    def create_example_deck_yaml(self) -> str:
+        """Create an example deck YAML file in the decks folder"""
+        examples = [
+            {
+                'filename': 'teledad_2009.yaml',
+                'deck': {
+                    'deck_name': 'Teledad 2009',
+                    'format': 'March 2009',
+                    'description': 'Classic Teleport Dark Armed Dragon deck',
+                    'cards': {
+                        'Monsters': {
+                            'Dark Armed Dragon': 2,
+                            'Caius the Shadow Monarch': 1,
+                            'Plaguespreader Zombie': 1,
+                            'Sangan': 1,
+                            'Elemental Hero Stratos': 1,
+                            'Destiny Hero - Malicious': 2
+                        },
+                        'Spells': {
+                            'Allure of Darkness': 3,
+                            'Emergency Teleport': 3,
+                            'Reinforcement of the Army': 1,
+                            'Brain Control': 1,
+                            'Heavy Storm': 1
+                        },
+                        'Traps': {
+                            'Trap Dustshoot': 3,
+                            'Mirror Force': 1,
+                            'Torrential Tribute': 1,
+                            'Solemn Judgment': 1
+                        }
+                    }
+                }
+            },
+            {
+                'filename': 'goat_control.yaml',
+                'deck': {
+                    'deck_name': 'Goat Control',
+                    'format': 'April 2005',
+                    'description': 'Classic Goat Control format deck',
+                    'cards': {
+                        'Monsters': {
+                            'Scapegoat': 1,  # Actually a spell but keeping for example
+                            'Magician of Faith': 1,
+                            'Morphing Jar': 1,
+                            'Sangan': 1,
+                            'Sinister Serpent': 1
+                        },
+                        'Spells': {
+                            'Pot of Greed': 1,
+                            'Graceful Charity': 1,
+                            'Delinquent Duo': 1,
+                            'Heavy Storm': 1,
+                            'Mystical Space Typhoon': 1,
+                            'Premature Burial': 1,
+                            'Snatch Steal': 1,
+                            'Book of Moon': 1
+                        },
+                        'Traps': {
+                            'Mirror Force': 1,
+                            'Ring of Destruction': 1,
+                            'Torrential Tribute': 1,
+                            'Call of the Haunted': 1
+                        }
+                    }
+                }
+            }
+        ]
+
+        print(f"\n📝 Creating example deck files...")
+
+        # Show available examples
+        print("Available examples:")
+        for i, example in enumerate(examples, 1):
+            deck_name = example['deck']['deck_name']
+            format_name = example['deck']['format']
+            print(f"{i}. {deck_name} ({format_name})")
+
+        print(f"{len(examples) + 1}. Create all examples")
+
+        try:
+            choice = input(f"Select example to create (1-{len(examples) + 1}): ").strip()
+            choice_num = int(choice)
+
+            if choice_num == len(examples) + 1:
+                # Create all examples
+                created_files = []
+                for example in examples:
+                    yaml_path = self.decks_folder / example['filename']
+                    with open(yaml_path, 'w', encoding='utf-8') as f:
+                        yaml.dump(example['deck'], f, default_flow_style=False, allow_unicode=True)
+                    created_files.append(str(yaml_path))
+                    print(f"✓ Created: {yaml_path}")
+
+                print(f"\n✅ Created {len(created_files)} example decks")
+                return created_files[0]  # Return first one
+
+            elif 1 <= choice_num <= len(examples):
+                # Create selected example
+                selected_example = examples[choice_num - 1]
+                yaml_path = self.decks_folder / selected_example['filename']
+
+                with open(yaml_path, 'w', encoding='utf-8') as f:
+                    yaml.dump(selected_example['deck'], f, default_flow_style=False, allow_unicode=True)
+
+                print(f"✓ Created example deck: {yaml_path}")
+                return str(yaml_path)
+            else:
+                print("❌ Invalid choice")
+                return ""
+
+        except ValueError:
+            print("❌ Invalid input")
+            return ""
 
     def estimate_deck_price(self, deck_list: Dict[str, Dict[str, int]], analysis_data: Dict,
                             language_preference: str = 'English', fallback_to_foreign: bool = True,
@@ -345,36 +540,6 @@ class DeckPriceEstimator:
             f.write(f"\nTOTAL: €{estimation_results['total_estimation']['optimized_price']:.2f}\n")
 
 
-def create_example_deck_yaml():
-    """Create an example deck YAML file"""
-    example_deck = {
-        'deck_name': 'Teledad 2009',
-        'format': 'March 2009',
-        'description': 'Classic Teleport Dark Armed Dragon deck',
-        'cards': {
-            'Monsters': {
-                'Dark Armed Dragon': 2,
-                'Caius the Shadow Monarch': 1,
-                'Plaguespreader Zombie': 1,
-                'Sangan': 1
-            },
-            'Spells': {
-                'Allure of Darkness': 3
-            },
-            'Traps': {
-                'Trap Dustshoot': 3
-            }
-        }
-    }
-
-    yaml_path = Path("example_deck.yaml")
-    with open(yaml_path, 'w', encoding='utf-8') as f:
-        yaml.dump(example_deck, f, default_flow_style=False, allow_unicode=True)
-
-    print(f"✓ Created example deck YAML: {yaml_path}")
-    return str(yaml_path)
-
-
 def main():
     """Main function to estimate deck prices"""
     print("🃏 DECK PRICE ESTIMATOR")
@@ -385,15 +550,16 @@ def main():
     print(f"Using analysis data from: {today}")
 
     # Initialize estimator
-    estimator = DeckPriceEstimator("./output")
+    estimator = DeckPriceEstimator("./output", "./decks")
 
-    # Create example YAML if it doesn't exist
-    yaml_path = "example_deck.yaml"
-    if not Path(yaml_path).exists():
-        yaml_path = create_example_deck_yaml()
+    # Interactive deck selection
+    selected_deck_path = estimator.select_deck_interactive()
+    if not selected_deck_path:
+        print("❌ No deck selected. Exiting.")
+        return
 
     # Load deck from YAML
-    deck_list = estimator.load_deck_from_yaml(yaml_path)
+    deck_list = estimator.load_deck_from_yaml(selected_deck_path)
     if not deck_list:
         print("❌ Failed to load deck list. Exiting.")
         return

@@ -1,10 +1,10 @@
 === Card Price Analysis Results ===
-Date Folder: 2025-06-02
-Analysis Date: 2025-06-02 22:25:47
+Date Folder: 2025-06-03
+Analysis Date: 2025-06-03 22:52:18
 Total Excel files analyzed: 1
 
 ============================================================
-FILE: 2009_Teledad_2025_06_02.xlsx
+FILE: 2009_Teledad_2025_06_03.xlsx
 ============================================================
 Total cards in file: 7
 Cards with pricing data: 7
@@ -13,18 +13,18 @@ LIST SUMMARY BY LANGUAGE:
 ----------------------------------------
 English:
   Cards available: 7
-  Total quantity: 56
-  Total listings: 47
+  Total quantity: 57
+  Total listings: 48
   Price range: €30.00 - €2000.00
-  Average price: €461.69
+  Average price: €461.79
   Median price: €319.50
 
 German:
   Cards available: 7
-  Total quantity: 92
-  Total listings: 74
+  Total quantity: 89
+  Total listings: 71
   Price range: €15.00 - €1199.99
-  Average price: €302.14
+  Average price: €303.06
   Median price: €199.99
 
 Spanish:
@@ -37,8 +37,8 @@ Spanish:
 
 French:
   Cards available: 7
-  Total quantity: 32
-  Total listings: 21
+  Total quantity: 31
+  Total listings: 20
   Price range: €9.49 - €800.00
   Average price: €277.53
   Median price: €149.50
@@ -53,25 +53,25 @@ Italian:
 
 FOREIGN LANGUAGES COMBINED:
   Cards available: 7
-  Total quantity: 161
-  Total listings: 125
+  Total quantity: 157
+  Total listings: 121
   Price range: €9.49 - €1700.00
-  Average price: €342.17
+  Average price: €343.10
   Median price: €199.99
 
 INDIVIDUAL CARD DETAILS:
 ----------------------------------------
 
 Card: Dark Armed Dragon
-  Total listings: 26
+  Total listings: 25
   English:
-    Quantity: 13
-    Listings: 10
-    Price: €339.00 - €2000.00 (avg: €643.88, median: €446.50)
+    Quantity: 14
+    Listings: 11
+    Price: €339.00 - €2000.00 (avg: €623.89, median: €444.00)
   German:
-    Quantity: 16
-    Listings: 12
-    Price: €265.00 - €699.99 (avg: €352.16, median: €302.50)
+    Quantity: 14
+    Listings: 10
+    Price: €277.98 - €699.99 (avg: €365.59, median: €310.00)
   Spanish:
     Quantity: 1
     Listings: 1
@@ -85,20 +85,20 @@ Card: Dark Armed Dragon
     Listings: 2
     Price: €620.00 - €649.99 (avg: €635.00, median: €635.00)
   Foreign Combined:
-    Quantity: 21
-    Listings: 16
-    Price: €265.00 - €699.99 (avg: €400.93, median: €319.98)
+    Quantity: 19
+    Listings: 14
+    Price: €277.98 - €699.99 (avg: €417.49, median: €335.00)
 
 Card: Caius the Shadow Monarch
-  Total listings: 30
+  Total listings: 29
   English:
     Quantity: 10
     Listings: 10
     Price: €299.99 - €1099.99 (avg: €653.98, median: €649.99)
   German:
-    Quantity: 15
-    Listings: 11
-    Price: €430.00 - €1199.99 (avg: €584.08, median: €549.99)
+    Quantity: 14
+    Listings: 10
+    Price: €430.00 - €1199.99 (avg: €579.49, median: €499.99)
   French:
     Quantity: 9
     Listings: 5
@@ -108,9 +108,9 @@ Card: Caius the Shadow Monarch
     Listings: 4
     Price: €535.00 - €1700.00 (avg: €871.25, median: €625.00)
   Foreign Combined:
-    Quantity: 30
-    Listings: 20
-    Price: €425.00 - €1700.00 (avg: €631.74, median: €549.99)
+    Quantity: 29
+    Listings: 19
+    Price: €425.00 - €1700.00 (avg: €631.84, median: €549.99)
 
 Card: Allure of Darkness V 2
   Total listings: 21
@@ -167,7 +167,7 @@ Card: Sangan V1 Super Rare
   German:
     Quantity: 20
     Listings: 18
-    Price: €15.00 - €99.99 (avg: €32.82, median: €24.99)
+    Price: €15.00 - €99.99 (avg: €32.71, median: €24.99)
   French:
     Quantity: 9
     Listings: 6
@@ -179,30 +179,30 @@ Card: Sangan V1 Super Rare
   Foreign Combined:
     Quantity: 44
     Listings: 37
-    Price: €9.49 - €99.99 (avg: €29.55, median: €25.00)
+    Price: €9.49 - €99.99 (avg: €29.50, median: €25.00)
 
 Card: Trap Dustshoot
-  Total listings: 15
+  Total listings: 14
   English:
     Quantity: 3
     Listings: 3
-    Price: €353.64 - €599.99 (avg: €451.21, median: €400.00)
+    Price: €355.03 - €599.99 (avg: €451.67, median: €400.00)
   German:
     Quantity: 6
     Listings: 5
     Price: €280.00 - €499.99 (avg: €411.79, median: €399.00)
   French:
-    Quantity: 9
-    Listings: 5
-    Price: €255.00 - €400.00 (avg: €311.00, median: €275.00)
+    Quantity: 8
+    Listings: 4
+    Price: €255.00 - €400.00 (avg: €301.25, median: €275.00)
   Italian:
     Quantity: 2
     Listings: 2
     Price: €349.00 - €400.00 (avg: €374.50, median: €374.50)
   Foreign Combined:
-    Quantity: 17
-    Listings: 12
-    Price: €255.00 - €499.99 (avg: €363.58, median: €364.99)
+    Quantity: 16
+    Listings: 11
+    Price: €255.00 - €499.99 (avg: €364.81, median: €379.99)
 
 Card: Dark Grepher V 1
   Total listings: 20

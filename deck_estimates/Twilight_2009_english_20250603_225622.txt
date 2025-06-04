@@ -1,0 +1,43 @@
+DECK PRICE ESTIMATION REPORT
+==================================================
+Generated: 2025-06-03 22:56:22
+Language preference: English
+Optimized price: €5202.08
+
+PURCHASE STRATEGY:
+------------------------------
+Judgment Dragon x2 - €520.00 (English)
+Lumina Lightsworn Summoner x3 - €915.00 (English)
+Lyla Lightsworn Sorceress x2 - €189.98 (English)
+  → Matched: Lyla Lightsworn Sorceress V3...
+Celestia Lightsworn Angel x2 - €160.00 (English)
+  → Matched: Celestia Lightsworn Angel V3...
+Wulf Lightsworn Beast x2 - €8.40 (English)
+  → Matched: Wulf Lightsworn Beast V1 Sup...
+Garoth Lightsworn Warrior x1 - €15.95 (English)
+Jain Lightsworn Paladin x1 - €15.95 (English)
+  → Matched: Garoth Lightsworn Warrior
+Aurkus Lightsworn Druid x1 - €3.50 (English)
+  → Matched: Aurkus Lightsworn Druid V1 S...
+Honest x3 - €585.00 (English)
+  → Matched: Honest V3 Ghost Rare
+Dark Armed Dragon x1 - €339.00 (English)
+Tragoedia x3 - €390.00 (English)
+Chaos Sorcerer x2 - €400.00 (English)
+Gorz the Emissary of Darkness x1 - €3.68 (English)
+Necro Gardna x3 - €257.10 (English)
+  → Matched: Necro Gardna V 2
+Plaguespreader Zombie x1 - €249.97 (English)
+  → Matched: Plaguespreader Zombie V 2
+Charge of the Light Brigade x3 - €404.70 (English)
+Solar Recharge x3 - €272.97 (English)
+  → Matched: Solar Recharge V3 Ultimate Rare
+Allure of Darkness x2 - €289.98 (English)
+  → Matched: Allure of Darkness V 2
+Heavy Storm x1 - €60.00 (English)
+  → Matched: Heavy Storm V2 Super Rare
+Monster Reincarnation x1 - €64.90 (English)
+  → Matched: Monster Reincarnation V 2
+Beckoning Light x2 - €56.00 (English)
+
+TOTAL: €5202.08

@@ -7,18 +7,93 @@ cards:
     set: Turbo-Pack
     condition: Near Mint
 
-  Caius-the-Shadow-Monarch:
-    set: Turbo-Pack-Booster-Three
-    condition: Near Mint
-
   Lumina-Lightsworn-Summoner:
     set: Champion-Pack-Game-Eight
     condition: Near Mint
+
+  Lyla-Lightsworn-Sorceress-V3-Ultimate-Rare:
+    set: Light-of-Destruction
+    condition: Near Mint
+    edition: 1st
+
+  Celestia-Lightsworn-Angel-V3-Ultimate-Rare:
+    set: Light-of-Destruction
+    condition: Near Mint
+    edition: 1st
+
+  Wulf-Lightsworn-Beast-V1-Super-Rare:
+    set: Light-of-Destruction
+    condition: Near Mint
+    edition: 1st
+
+  Garoth-Lightsworn-Warrior:
+    set: Turbo-Pack
+    condition: Near Mint
+
+  Aurkus-Lightsworn-Druid-V1-Super-Rare:
+    set: Light-of-Destruction
+    condition: Near Mint
+    edition: 1st
+
+  Honest-V3-Ghost-Rare:
+    set: Light-of-Destruction
+    condition: Near Mint
+    edition: 1st
+
+  Dark-Armed-Dragon:
+    set: Turbo-Pack-Booster-Six
+    condition: Near Mint
+
+  Tragoedia:
+    set: Turbo-Pack-Booster-Four
+    condition: Near Mint
+
+  Chaos-Sorcerer:
+    set: Turbo-Pack-Booster-Two
+    condition: Near Mint
+
+  Gorz-the-Emissary-of-Darkness:
+    set: Retro-Pack-2
+    condition: Near Mint
+
+  Plaguespreader-Zombie-V-2:
+    set: Crossroads-of-Chaos
+    condition: Near Mint
+    edition: 1st
+
+  Necro-Gardna-V-2:
+    set: Tactical-Evolution
+    condition: Near Mint
+    edition: 1st
 
   Charge-of-the-Light-Brigade:
     set: The-Duelist-Genesis
     condition: Near Mint
     edition: 1st
+
+  Solar-Recharge-V3-Ultimate-Rare:
+    set: Light-of-Destruction
+    condition: Near Mint
+    edition: 1st
+
+  Allure-of-Darkness-V-2:
+    set: Phantom-Darkness
+    condition: Near Mint
+    edition: 1st
+
+  Heavy-Storm-V2-Super-Rare:
+    set: Metal-Raiders
+    condition: Near Mint
+    edition: 1st
+
+  Monster-Reincarnation-V-2:
+    set: Rise-of-Destiny
+    condition: Near Mint
+    edition: 1st
+
+  Beckoning-Light:
+    set: Turbo-Pack-Booster-Two
+    condition: Near Mint
 
 # URL Building Logic:
 # Base URL: https://www.cardmarket.com/en/YuGiOh/Products/Singles/
