@@ -140,5 +140,10 @@ def main():
             input("Press Enter to continue...")
 
 
+"""
+1. Run the following in CMD to start a chrome debugging window:
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222 --user-data-dir="C:/chrome-dev"
+"""
+
 if __name__ == "__main__":
     main()

@@ -52,7 +52,7 @@ cardmarket-scraper/
    
    OR
    
-   C:\Program Files\Google\Chrome\Application\chrome.exe --remote-debugging-port=9222 --user-data-dir="C:/chrome-dev"
+    "C:\Program Files\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222 --user-data-dir="C:/chrome-dev"
    ```
 
 2. **Create a config.yaml file** (see example below)
