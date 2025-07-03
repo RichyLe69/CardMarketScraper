@@ -1,0 +1,41 @@
+DECK PRICE ESTIMATION REPORT
+==================================================
+Generated: 2025-07-02 22:49:07
+Language preference: Foreign
+Optimized price: €3657.47
+
+PURCHASE STRATEGY:
+------------------------------
+Judgment Dragon x2 - €420.00 (foreign_combined)
+Lumina Lightsworn Summoner x3 - €824.67 (foreign_combined)
+Lyla Lightsworn Sorceress x2 - €89.96 (foreign_combined)
+  → Matched: Lyla Lightsworn Sorceress V3...
+Celestia Lightsworn Angel x2 - €70.00 (foreign_combined)
+  → Matched: Celestia Lightsworn Angel V3...
+Wulf Lightsworn Beast x2 - €5.80 (foreign_combined)
+  → Matched: Wulf Lightsworn Beast V1 Sup...
+Garoth Lightsworn Warrior x1 - €13.50 (foreign_combined)
+Jain Lightsworn Paladin x1 - €13.50 (foreign_combined)
+  → Matched: Garoth Lightsworn Warrior
+Aurkus Lightsworn Druid x1 - €0.60 (foreign_combined)
+  → Matched: Aurkus Lightsworn Druid V1 S...
+Honest x3 - €420.00 (foreign_combined)
+  → Matched: Honest V3 Ghost Rare
+Dark Armed Dragon x1 - €277.98 (foreign_combined)
+Tragoedia x3 - €389.97 (foreign_combined)
+Chaos Sorcerer x2 - €230.00 (foreign_combined)
+Gorz the Emissary of Darkness x1 - €2.00 (foreign_combined)
+Necro Gardna x3 - €209.70 (foreign_combined)
+  → Matched: Necro Gardna V 2
+Plaguespreader Zombie x1 - €125.00 (foreign_combined)
+  → Matched: Plaguespreader Zombie V 2
+Charge of the Light Brigade x3 - €300.00 (foreign_combined)
+Solar Recharge x3 - €120.00 (foreign_combined)
+  → Matched: Solar Recharge V3 Ultimate Rare
+Allure of Darkness x2 - €85.80 (foreign_combined)
+  → Matched: Allure of Darkness V 2
+Monster Reincarnation x1 - €34.99 (foreign_combined)
+  → Matched: Monster Reincarnation V 2
+Beckoning Light x2 - €24.00 (foreign_combined)
+
+TOTAL: €3657.47
