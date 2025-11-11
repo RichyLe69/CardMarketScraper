@@ -145,6 +145,7 @@ def main():
 "C:\Program Files\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222 --user-data-dir="C:/chrome-dev"
 
 2. Of the options (1-3), run 1, then 2, then 3.
+First run might require manual captcha box thingy
 """
 
 if __name__ == "__main__":
