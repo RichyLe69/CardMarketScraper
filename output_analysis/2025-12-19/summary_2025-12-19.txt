@@ -1,0 +1,520 @@
+=== Card Price Analysis Results ===
+Date Folder: 2025-12-19
+Analysis Date: 2025-12-19 21:57:52
+Total Excel files analyzed: 1
+
+============================================================
+FILE: 2009_Twilight_2025_12_19.xlsx
+============================================================
+Total cards in file: 20
+Cards with pricing data: 20
+
+LIST SUMMARY BY LANGUAGE:
+----------------------------------------
+English:
+  Cards available: 20
+  Total quantity: 197
+  Total listings: 148
+  Price range: €2.00 - €2000.00
+  Average price: €282.77
+  Median price: €157.50
+
+German:
+  Cards available: 19
+  Total quantity: 241
+  Total listings: 158
+  Price range: €1.50 - €600.00
+  Average price: €157.52
+  Median price: €99.94
+
+Spanish:
+  Cards available: 8
+  Total quantity: 43
+  Total listings: 31
+  Price range: €3.00 - €319.95
+  Average price: €120.09
+  Median price: €129.99
+
+French:
+  Cards available: 15
+  Total quantity: 84
+  Total listings: 68
+  Price range: €1.50 - €499.99
+  Average price: €147.93
+  Median price: €105.00
+
+Italian:
+  Cards available: 18
+  Total quantity: 96
+  Total listings: 72
+  Price range: €1.85 - €1100.00
+  Average price: €234.44
+  Median price: €100.00
+
+FOREIGN LANGUAGES COMBINED:
+  Cards available: 19
+  Total quantity: 464
+  Total listings: 329
+  Price range: €1.50 - €1100.00
+  Average price: €213.35
+  Median price: €110.00
+
+INDIVIDUAL CARD DETAILS:
+----------------------------------------
+
+Card: Judgment Dragon
+  Total listings: 45
+  English:
+    Quantity: 25
+    Listings: 20
+    Price: €249.00 - €2000.00 (avg: €481.53, median: €351.51)
+  German:
+    Quantity: 23
+    Listings: 14
+    Price: €200.00 - €550.00 (avg: €370.93, median: €387.00)
+  French:
+    Quantity: 3
+    Listings: 3
+    Price: €299.99 - €439.95 (avg: €379.65, median: €399.00)
+  Italian:
+    Quantity: 17
+    Listings: 8
+    Price: €200.00 - €999.00 (avg: €373.61, median: €267.49)
+  Foreign Combined:
+    Quantity: 43
+    Listings: 25
+    Price: €200.00 - €999.00 (avg: €372.83, median: €350.00)
+
+Card: Lumina Lightsworn Summoner
+  Total listings: 12
+  English:
+    Quantity: 8
+    Listings: 5
+    Price: €350.00 - €480.00 (avg: €390.00, median: €370.00)
+  German:
+    Quantity: 6
+    Listings: 5
+    Price: €245.00 - €600.00 (avg: €362.00, median: €310.00)
+  French:
+    Quantity: 1
+    Listings: 1
+    Price: €299.00 - €299.00 (avg: €299.00, median: €299.00)
+  Italian:
+    Quantity: 1
+    Listings: 1
+    Price: €499.99 - €499.99 (avg: €499.99, median: €499.99)
+  Foreign Combined:
+    Quantity: 8
+    Listings: 7
+    Price: €245.00 - €600.00 (avg: €372.71, median: €310.00)
+
+Card: Lyla Lightsworn Sorceress V3...
+  Total listings: 17
+  English:
+    Quantity: 5
+    Listings: 4
+    Price: €169.99 - €211.82 (avg: €195.45, median: €200.00)
+  German:
+    Quantity: 11
+    Listings: 8
+    Price: €59.98 - €80.00 (avg: €71.11, median: €69.99)
+  French:
+    Quantity: 5
+    Listings: 3
+    Price: €69.89 - €90.00 (avg: €76.60, median: €69.90)
+  Italian:
+    Quantity: 2
+    Listings: 2
+    Price: €290.00 - €340.00 (avg: €315.00, median: €315.00)
+  Foreign Combined:
+    Quantity: 18
+    Listings: 13
+    Price: €59.98 - €340.00 (avg: €109.90, median: €69.99)
+
+Card: Celestia Lightsworn Angel V3...
+  Total listings: 16
+  English:
+    Quantity: 3
+    Listings: 3
+    Price: €118.00 - €139.90 (avg: €125.97, median: €120.00)
+  German:
+    Quantity: 8
+    Listings: 7
+    Price: €39.99 - €119.95 (avg: €60.83, median: €49.99)
+  Italian:
+    Quantity: 6
+    Listings: 6
+    Price: €65.00 - €99.99 (avg: €81.50, median: €82.00)
+  Foreign Combined:
+    Quantity: 14
+    Listings: 13
+    Price: €39.99 - €119.95 (avg: €70.37, median: €65.00)
+
+Card: Wulf Lightsworn Beast V1 Sup...
+  Total listings: 36
+  English:
+    Quantity: 12
+    Listings: 9
+    Price: €9.00 - €17.00 (avg: €12.39, median: €12.00)
+  German:
+    Quantity: 20
+    Listings: 12
+    Price: €3.00 - €9.00 (avg: €5.90, median: €5.25)
+  Spanish:
+    Quantity: 6
+    Listings: 6
+    Price: €3.50 - €25.00 (avg: €8.25, median: €5.00)
+  French:
+    Quantity: 9
+    Listings: 6
+    Price: €7.00 - €12.00 (avg: €8.17, median: €7.50)
+  Italian:
+    Quantity: 3
+    Listings: 3
+    Price: €7.00 - €8.99 (avg: €8.31, median: €8.95)
+  Foreign Combined:
+    Quantity: 38
+    Listings: 27
+    Price: €3.00 - €25.00 (avg: €7.19, median: €7.00)
+
+Card: Garoth Lightsworn Warrior
+  Total listings: 28
+  English:
+    Quantity: 9
+    Listings: 7
+    Price: €24.90 - €39.99 (avg: €28.61, median: €25.00)
+  German:
+    Quantity: 29
+    Listings: 16
+    Price: €13.70 - €39.00 (avg: €21.46, median: €18.24)
+  Italian:
+    Quantity: 8
+    Listings: 5
+    Price: €19.99 - €60.00 (avg: €37.00, median: €24.99)
+  Foreign Combined:
+    Quantity: 37
+    Listings: 21
+    Price: €13.70 - €60.00 (avg: €25.16, median: €19.99)
+
+Card: Aurkus Lightsworn Druid V1 S...
+  Total listings: 27
+  English:
+    Quantity: 5
+    Listings: 5
+    Price: €2.00 - €9.99 (avg: €6.89, median: €7.99)
+  German:
+    Quantity: 13
+    Listings: 11
+    Price: €1.50 - €3.50 (avg: €2.22, median: €2.00)
+  French:
+    Quantity: 6
+    Listings: 4
+    Price: €1.50 - €3.00 (avg: €1.95, median: €1.65)
+  Italian:
+    Quantity: 8
+    Listings: 7
+    Price: €1.85 - €7.99 (avg: €2.97, median: €2.00)
+  Foreign Combined:
+    Quantity: 27
+    Listings: 22
+    Price: €1.50 - €7.99 (avg: €2.41, median: €2.00)
+
+Card: Honest V3 Ghost Rare
+  Total listings: 29
+  English:
+    Quantity: 11
+    Listings: 8
+    Price: €180.00 - €900.00 (avg: €302.87, median: €205.00)
+  German:
+    Quantity: 11
+    Listings: 10
+    Price: €185.00 - €350.00 (avg: €271.30, median: €279.97)
+  Spanish:
+    Quantity: 2
+    Listings: 1
+    Price: €150.00 - €150.00 (avg: €150.00, median: €150.00)
+  French:
+    Quantity: 2
+    Listings: 2
+    Price: €100.00 - €299.99 (avg: €200.00, median: €200.00)
+  Italian:
+    Quantity: 8
+    Listings: 8
+    Price: €180.00 - €549.00 (avg: €287.38, median: €250.00)
+  Foreign Combined:
+    Quantity: 23
+    Listings: 21
+    Price: €100.00 - €549.00 (avg: €264.86, median: €250.00)
+
+Card: Dark Armed Dragon
+  Total listings: 25
+  English:
+    Quantity: 18
+    Listings: 11
+    Price: €341.25 - €2000.00 (avg: €621.10, median: €445.00)
+  German:
+    Quantity: 10
+    Listings: 7
+    Price: €280.00 - €500.00 (avg: €352.71, median: €339.99)
+  Spanish:
+    Quantity: 2
+    Listings: 2
+    Price: €295.00 - €319.95 (avg: €307.48, median: €307.48)
+  French:
+    Quantity: 3
+    Listings: 3
+    Price: €450.00 - €499.99 (avg: €483.00, median: €499.00)
+  Italian:
+    Quantity: 2
+    Listings: 2
+    Price: €999.99 - €1100.00 (avg: €1049.99, median: €1049.99)
+  Foreign Combined:
+    Quantity: 17
+    Listings: 14
+    Price: €280.00 - €1100.00 (avg: €473.78, median: €375.00)
+
+Card: Tragoedia
+  Total listings: 29
+  English:
+    Quantity: 20
+    Listings: 15
+    Price: €145.00 - €239.99 (avg: €173.48, median: €175.90)
+  German:
+    Quantity: 14
+    Listings: 10
+    Price: €144.95 - €499.99 (avg: €259.88, median: €190.00)
+  Spanish:
+    Quantity: 3
+    Listings: 1
+    Price: €129.99 - €129.99 (avg: €129.99, median: €129.99)
+  French:
+    Quantity: 1
+    Listings: 1
+    Price: €189.00 - €189.00 (avg: €189.00, median: €189.00)
+  Italian:
+    Quantity: 2
+    Listings: 2
+    Price: €130.00 - €209.99 (avg: €170.00, median: €170.00)
+  Foreign Combined:
+    Quantity: 20
+    Listings: 14
+    Price: €129.99 - €499.99 (avg: €232.69, median: €184.50)
+
+Card: Chaos Sorcerer
+  Total listings: 36
+  English:
+    Quantity: 16
+    Listings: 10
+    Price: €248.50 - €399.99 (avg: €298.98, median: €284.49)
+  German:
+    Quantity: 26
+    Listings: 12
+    Price: €159.00 - €299.99 (avg: €199.90, median: €199.47)
+  Spanish:
+    Quantity: 3
+    Listings: 3
+    Price: €120.00 - €200.00 (avg: €156.67, median: €150.00)
+  French:
+    Quantity: 10
+    Listings: 8
+    Price: €109.99 - €189.00 (avg: €144.06, median: €140.00)
+  Italian:
+    Quantity: 3
+    Listings: 3
+    Price: €229.90 - €1000.00 (avg: €509.96, median: €299.99)
+  Foreign Combined:
+    Quantity: 42
+    Listings: 26
+    Price: €109.99 - €1000.00 (avg: €213.51, median: €189.00)
+
+Card: Gorz the Emissary of Darkness
+  Total listings: 50
+  English:
+    Quantity: 9
+    Listings: 7
+    Price: €3.52 - €5.00 (avg: €4.16, median: €4.03)
+  German:
+    Quantity: 2
+    Listings: 1
+    Price: €5.00 - €5.00 (avg: €5.00, median: €5.00)
+  Spanish:
+    Quantity: 24
+    Listings: 16
+    Price: €3.00 - €5.00 (avg: €4.34, median: €4.82)
+  French:
+    Quantity: 28
+    Listings: 24
+    Price: €2.80 - €5.00 (avg: €3.97, median: €3.99)
+  Italian:
+    Quantity: 2
+    Listings: 2
+    Price: €4.50 - €4.99 (avg: €4.75, median: €4.75)
+  Foreign Combined:
+    Quantity: 56
+    Listings: 43
+    Price: €2.80 - €5.00 (avg: €4.17, median: €4.00)
+
+Card: Plaguespreader Zombie V 2
+  Total listings: 9
+  English:
+    Quantity: 4
+    Listings: 4
+    Price: €229.99 - €1000.00 (avg: €440.00, median: €265.00)
+  German:
+    Quantity: 3
+    Listings: 3
+    Price: €150.00 - €249.99 (avg: €207.33, median: €222.00)
+  French:
+    Quantity: 2
+    Listings: 2
+    Price: €128.00 - €199.90 (avg: €163.95, median: €163.95)
+  Foreign Combined:
+    Quantity: 5
+    Listings: 5
+    Price: €128.00 - €249.99 (avg: €189.98, median: €199.90)
+
+Card: Necro Gardna V 2
+  Total listings: 14
+  English:
+    Quantity: 5
+    Listings: 5
+    Price: €80.00 - €100.00 (avg: €91.00, median: €90.00)
+  German:
+    Quantity: 5
+    Listings: 5
+    Price: €74.99 - €99.89 (avg: €84.37, median: €76.99)
+  Italian:
+    Quantity: 4
+    Listings: 4
+    Price: €79.99 - €110.00 (avg: €93.74, median: €92.49)
+  Foreign Combined:
+    Quantity: 9
+    Listings: 9
+    Price: €74.99 - €110.00 (avg: €88.54, median: €84.99)
+
+Card: Charge of the Light Brigade
+  Total listings: 12
+  English:
+    Quantity: 9
+    Listings: 6
+    Price: €134.90 - €199.99 (avg: €165.76, median: €154.84)
+  German:
+    Quantity: 4
+    Listings: 3
+    Price: €99.99 - €120.00 (avg: €112.99, median: €118.98)
+  Spanish:
+    Quantity: 2
+    Listings: 1
+    Price: €140.00 - €140.00 (avg: €140.00, median: €140.00)
+  Italian:
+    Quantity: 2
+    Listings: 2
+    Price: €100.00 - €100.00 (avg: €100.00, median: €100.00)
+  Foreign Combined:
+    Quantity: 8
+    Listings: 6
+    Price: €99.99 - €140.00 (avg: €113.16, median: €109.49)
+
+Card: Solar Recharge V3 Ultimate Rare
+  Total listings: 16
+  English:
+    Quantity: 3
+    Listings: 3
+    Price: €90.00 - €110.00 (avg: €103.00, median: €108.99)
+  German:
+    Quantity: 7
+    Listings: 4
+    Price: €55.00 - €85.00 (avg: €71.25, median: €72.50)
+  French:
+    Quantity: 6
+    Listings: 4
+    Price: €39.99 - €55.00 (avg: €44.75, median: €42.00)
+  Italian:
+    Quantity: 9
+    Listings: 5
+    Price: €38.99 - €110.00 (avg: €63.04, median: €51.69)
+  Foreign Combined:
+    Quantity: 22
+    Listings: 13
+    Price: €38.99 - €110.00 (avg: €59.94, median: €55.00)
+
+Card: Allure of Darkness V 2
+  Total listings: 22
+  English:
+    Quantity: 5
+    Listings: 4
+    Price: €199.99 - €249.90 (avg: €228.81, median: €232.68)
+  German:
+    Quantity: 21
+    Listings: 13
+    Price: €65.00 - €199.99 (avg: €102.47, median: €94.00)
+  French:
+    Quantity: 1
+    Listings: 1
+    Price: €148.99 - €148.99 (avg: €148.99, median: €148.99)
+  Italian:
+    Quantity: 8
+    Listings: 4
+    Price: €42.90 - €99.99 (avg: €85.47, median: €99.48)
+  Foreign Combined:
+    Quantity: 30
+    Listings: 18
+    Price: €42.90 - €199.99 (avg: €101.28, median: €99.00)
+
+Card: Heavy Storm V2 Super Rare
+  Total listings: 6
+  English:
+    Quantity: 6
+    Listings: 6
+    Price: €50.00 - €234.56 (avg: €132.25, median: €119.47)
+
+Card: Monster Reincarnation V 2
+  Total listings: 20
+  English:
+    Quantity: 10
+    Listings: 8
+    Price: €59.99 - €199.99 (avg: €90.61, median: €77.49)
+  German:
+    Quantity: 8
+    Listings: 8
+    Price: €52.00 - €259.00 (avg: €90.93, median: €70.00)
+  Spanish:
+    Quantity: 1
+    Listings: 1
+    Price: €55.00 - €55.00 (avg: €55.00, median: €55.00)
+  French:
+    Quantity: 1
+    Listings: 1
+    Price: €58.00 - €58.00 (avg: €58.00, median: €58.00)
+  Italian:
+    Quantity: 2
+    Listings: 2
+    Price: €45.00 - €75.00 (avg: €60.00, median: €60.00)
+  Foreign Combined:
+    Quantity: 12
+    Listings: 12
+    Price: €45.00 - €259.00 (avg: €80.04, median: €69.98)
+
+Card: Beckoning Light
+  Total listings: 28
+  English:
+    Quantity: 14
+    Listings: 8
+    Price: €28.00 - €58.84 (avg: €40.30, median: €38.82)
+  German:
+    Quantity: 20
+    Listings: 9
+    Price: €16.48 - €64.99 (avg: €34.85, median: €39.99)
+  French:
+    Quantity: 6
+    Listings: 5
+    Price: €17.90 - €26.97 (avg: €21.97, median: €22.00)
+  Italian:
+    Quantity: 9
+    Listings: 6
+    Price: €29.99 - €99.99 (avg: €49.81, median: €44.95)
+  Foreign Combined:
+    Quantity: 35
+    Listings: 20
+    Price: €16.48 - €99.99 (avg: €36.12, median: €32.50)
+
