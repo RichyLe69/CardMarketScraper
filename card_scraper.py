@@ -4,6 +4,7 @@ Handles the sequential scraping of individual cards.
 """
 
 import time
+import random
 from typing import Dict, Any, List, Tuple
 from collections import OrderedDict
 
@@ -152,6 +153,9 @@ class CardScraper:
             listings = self.data_parser.parse_page_data(html_content)
             
             print(f"✅ [{card_number}] Completed: {card_name} ({len(listings)} listings)")
+
+            time.sleep(random.uniform(45, 60))  # todo add delay due to CardMarket blocking
+
             return listings
             
         except Exception as e:
